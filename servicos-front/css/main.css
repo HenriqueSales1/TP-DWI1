@@ -1,0 +1,193 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  font-family: "Raleway", serif;
+  font-style: normal;
+}
+
+body {
+  color: aliceblue;
+}
+
+body {
+  background-color: #191919;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: rgb(189, 43, 43);
+  margin: 0;
+  padding: 10px;
+}
+
+nav div {
+  width: fit-content;
+}
+
+nav div a {
+  padding: 0px 10px;
+  border-right: 1px solid aliceblue;
+  text-decoration: none;
+  color: unset;
+}
+
+nav div a:last-child {
+  border-right: none;
+}
+
+nav div a:hover {
+  background-color: rgb(202, 67, 67);
+}
+
+main {
+  width: 70%;
+  margin: auto;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 0.5px solid rgb(110, 110, 110);
+  border-radius: 15px;
+  padding: 40px;
+}
+
+main form {
+  margin: 20px;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+main form input {
+  height: 25px;
+  width: 20%;
+  margin: 10px;
+  border: none;
+  border-radius: 10px;
+}
+
+main form button {
+  font-size: 1.2rem;
+  border-radius: 10px;
+  width: 21%;
+  margin: 10px;
+  padding: 10px;
+}
+
+main form button:hover {
+  background-color: rgb(202, 67, 67);
+}
+
+table,
+form {
+  width: 70%;
+  margin: auto;
+}
+
+img {
+  width: 18%;
+}
+
+td:nth-child(4) {
+  text-align: center;
+}
+
+button {
+  background-color: rgb(189, 43, 43);
+  color: white;
+  border: none;
+  padding: 3px 5px;
+  margin: 1px;
+  cursor: pointer;
+}
+
+input {
+  padding: 5px;
+  margin: 0 0 5px;
+}
+
+footer {
+  align-items: center;
+}
+
+main p {
+  font-size: large;
+  justify-content: center;
+}
+
+header #bar {
+  background-color: rgb(189, 43, 43);
+}
+
+.adjust {
+  margin: 20px 15px 0px;
+  border: none;
+  list-style: left;
+}
+
+.adjust li {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+h3.avaliacao {
+  margin: 20px 20px;
+  /* margin-bottom: 5px; */
+  font-size: x-large;
+  text-align: center;
+}
+
+h3.jogo {
+  margin-top: 5px;
+}
+
+.pic-single-target {
+  width: 180px;
+  height: 180px;
+  margin: 30px;
+  border-radius: 100%;
+}
+
+.pics-alt {
+  margin: 15px;
+  /* padding: 0; */
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+li {
+  border-right: 1px solid #bbb;
+  display: inline;
+  float: left;
+}
+
+#avaliacoes ul li {
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+  border: 1px solid rgb(110, 110, 110);
+  border-radius: 10px;
+}
+
+#avaliacoes img {
+  margin: 15px auto;
+  display: flex;
+}
+
+#avaliacoes p {
+  margin: 15px;
+  display: flex;
+  font-style: italic;
+  text-align: justify;
+}

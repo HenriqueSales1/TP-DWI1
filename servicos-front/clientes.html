@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../servicos-front/css/main.css" />
+    <title>Clientes</title>
+  </head>
+  <body>
+    <nav>
+      <div>
+        <a href="./index.html">Home</a>
+        <a href="./servicos/servicos.html">Serviços</a>
+        <a href="./prestadores.html">Prestadores</a>
+        <a href="#">Clientes</a>
+        <a href="./jogos.html">Jogos</a>
+      </div>
+      <div>
+        <a id="link_login" href=""></a>
+      </div>
+    </nav>
+    <header>
+      <h1>Clientes</h1>
+    </header>
+    <main>
+      <img src="./imagens/33308.png" alt="" />
+      <form>
+        <input type="hidden" name="id" id="id" /><br />
+        <label for="nome">Nome</label><br />
+        <input type="text" name="nome" id="nome" /><br />
+        <label for="descricao">Email</label><br />
+        <input type="text" name="email" id="email" /><br />
+        <button>Adicionar</button>
+      </form>
+      <br />
+      <table border="1">
+        <thead>
+          <tr>
+            <th>Nome</th>
+            <th>Email</th>
+            <th>Ações</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </main>
+    <footer>Henrique Sales &copy; All Rights Reserved.</footer>
+  </body>
+  <script src="./clientes/clientes.js" type="module"></script>
+</html>
